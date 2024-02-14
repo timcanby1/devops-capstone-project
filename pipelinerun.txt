@@ -14,8 +14,8 @@
 [clone : clone] + test -z 
 [clone : clone] + test -z 
 [clone : clone] + git config --global --add safe.directory /workspace/output
-[clone : clone] + /ko-app/git-init '-url=https://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@github.com/timcanby1/devops-capstone-project.git' '-revision=main' '-refspec=' '-path=/workspace/output/' '-sslVerify=true' '-submodules=true' '-depth=1' '-sparseCheckoutDirectories='
-[clone : clone] {"level":"info","ts":1707938904.288141,"caller":"git/git.go:176","msg":"Successfully cloned https://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@github.com/timcanby1/devops-capstone-project.git @ 4016c54a48159ea5b846f77c815a3b7854909715 (grafted, HEAD, origin/main) in path /workspace/output/"}
+[clone : clone] + /ko-app/git-init '-url=https://timcanby1/devops-capstone-project.git' '-revision=main' '-refspec=' '-path=/workspace/output/' '-sslVerify=true' '-submodules=true' '-depth=1' '-sparseCheckoutDirectories='
+[clone : clone] {"level":"info","ts":1707938904.288141,"caller":"git/git.go:176","msg":"Successfully cloned https://timcanby1/devops-capstone-project.git @ 4016c54a48159ea5b846f77c815a3b7854909715 (grafted, HEAD, origin/main) in path /workspace/output/"}
 [clone : clone] {"level":"info","ts":1707938904.345261,"caller":"git/git.go:215","msg":"Successfully initialized and updated submodules in path /workspace/output/"}
 [clone : clone] + cd /workspace/output/
 [clone : clone] + git rev-parse HEAD
